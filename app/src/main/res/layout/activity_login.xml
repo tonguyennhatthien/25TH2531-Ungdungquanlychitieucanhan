@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:padding="28dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="QUẢN LÝ CHI TIÊU"
+            android:textSize="28sp" android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Đăng nhập để quản lý tài chính cá nhân"/>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="35dp" android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:hint="Mật khẩu"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="ĐĂNG NHẬP"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="ĐĂNG KÝ TÀI KHOẢN"/>
+    </LinearLayout>
+</ScrollView>
